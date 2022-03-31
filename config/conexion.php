@@ -9,7 +9,10 @@ class Conectar
     protected function Conexion()
     {
         try {
-            $conectar = $this->dbh = new PDO('mysql:host=localhost;dbname=practica_webservice', 'root', '');
+            //ruta para trabajar en local
+            // $conectar = $this->dbh = new PDO('mysql:host=localhost;dbname=practica_webservice', 'root', '');
+            //ruta heroku o cualquier hosting que manejes, se cambia datos del servidor contratado
+            $conectar = $this->dbh = new PDO('mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_6931ee3c548073d', 'b03e3c39b86091', 'f7a11f23');
             return $conectar;
         } catch (PDOException $e) {
             print "Error!: " . $e->getMessage();
