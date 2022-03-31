@@ -38,4 +38,11 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+li:hover,
+a:hover {
+  color: #58a6ff;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
