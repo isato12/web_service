@@ -1,0 +1,33 @@
+/** @format */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #161b22;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.titulo {
+  color: #8892bf;
+  font-size: 4rem;
+  text-align: center;
+}
+.subtitulo {
+  color: #4f5b93;
+  font-size: 2rem;
+  text-align: left;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
