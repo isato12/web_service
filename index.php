@@ -17,5 +17,6 @@
         <li><a href="index.php?op=update">Actualizar</a></li>
         <li><a href="index.php?op=delete">Borrar</a></li>
     </ul>  
+    
 </body>
 </html>
